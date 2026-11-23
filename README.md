@@ -26,7 +26,7 @@ ivan = {
 <p align="center">
   <a href="mailto:ivanignacio143@gmail.com"><img src="assets/btn-email.svg" alt="Email me: ivanignacio143@gmail.com" width="32%"></a>
   <a href="https://www.linkedin.com/in/TU-LINKEDIN"><img src="assets/btn-linkedin.svg" alt="Connect on LinkedIn" width="32%"></a>
-  <a href="https://imivyzz.github.io"><img src="assets/btn-resume.svg" alt="View my resume" width="32%"></a>
+  <a href="https://imivyzz.github.io"><img src="assets/btn-resume.svg" alt="View my Portfolio" width="32%"></a>
 </p>
 
 ## Toolkit
