@@ -26,7 +26,7 @@ ivan = {
 <p align="center">
   <a href="mailto:ivanignacio143@gmail.com"><img src="assets/btn-email.svg" alt="Email me: ivanignacio143@gmail.com" width="32%"></a>
   <a href="https://www.linkedin.com/in/ivan-ignacio-velazquez-b436362b6/"><img src="assets/btn-linkedin.svg" alt="Connect on LinkedIn" width="32%"></a>
-  <a href="https://imivyzz.github.io"><img src="assets/btn-resume.svg" alt="View my Portfolio" width="32%"></a>
+  <a href="https://imivyzz.github.io"><img src="assets/btn-resume.svg" alt="View my resume" width="32%"></a>
 </p>
 
 ## Toolkit
@@ -39,7 +39,7 @@ ivan = {
 
 <p align="center">
   <a href="https://github.com/ImIvyzz/telco-churn"><img src="assets/card-churn.svg" alt="Telco customer churn prediction. The model catches 80% of churners, ROC-AUC 0.84." width="49%"></a>
-  <a href="https://imivyzz.github.io"><img src="assets/card-crm.svg" alt="CRM and workflow automation with Monday.com, n8n and Zapier." width="49%"></a>
+  <a href="https://imivyzz.github.io/olist-analytics/"><img src="assets/card-olist.svg" alt="E-commerce delivery promise engine. On 25,676 unseen orders it promised 22.1 days instead of 24.1 and was late 3.3% of the time vs. 4.0%." width="49%"></a>
 </p>
 
 <details>
@@ -55,12 +55,16 @@ ivan = {
 </details>
 
 <details>
-<summary><b>CRM automation: what I built</b></summary>
+<summary><b>E-commerce delivery promises: what's inside the repo</b></summary>
 <br>
 
-- Implemented a Monday.com CRM and migrated 1,000+ client records into one master database with each client's full history.
-- Built n8n and Zapier workflows for client intake, database organization, automated follow-ups and reminders.
-- Replaced manual case assignment with a balanced round-robin across 4 advisors.
+- Cleaned the raw export of Olist, a Brazilian marketplace (11 CSV files, 1.56M rows), with SQL in DuckDB and 25 data quality checks.
+- Built a delivery promise engine (quantile gradient boosting plus conformal calibration) and backtested it month by month: on 25,676 orders it never saw, it promised 2 days less and was late less often (3.3% vs. 4.0%).
+- A late-risk model scores each order at checkout: the riskiest 10% are late 3.8 times as often as average.
+- Ranked the phrases customers write when an order arrives late vs. on time, over 22,000 review comments.
+- Put it all in a web app: one screen for managers, an interactive table of 26,271 orders, and eight pages for analysts.
+
+[Open the app](https://imivyzz.github.io/olist-analytics/), browse [the repository](https://github.com/ImIvyzz/olist-analytics) or read [the 14-slide case study](https://github.com/ImIvyzz/olist-analytics/blob/main/olist-case-study.pdf).
 
 </details>
 
